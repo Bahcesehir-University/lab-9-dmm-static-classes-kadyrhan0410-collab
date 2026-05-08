@@ -135,7 +135,7 @@ IntArray::IntArray(int cap) {
     data = new int[cap];
     capacity = cap;
     count = 0;
-    Tracker:: objectCreated;
+    Tracker:: objectCreated();
 
 }
 
