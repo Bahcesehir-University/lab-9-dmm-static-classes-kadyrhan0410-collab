@@ -155,9 +155,9 @@ IntArray::IntArray(const IntArray& other) {
     //         Don't forget to copy capacity and count
     //         Notify Tracker that an object was created
    
-    data = new int[other.capacity];
     capacity = other.capacity;
     count = other.count;
+    data = new int[other.capacity];
     for (int i=0; i< count; i++){
     data[i]= other.data[i];
         
